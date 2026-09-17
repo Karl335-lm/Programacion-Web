@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasa de cambio</title>
+    <link rel="stylesheet" href="css/exercicio13.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="js/ese13.js"></script>
+</head>
+<body>
+    <div class="Contenedor">
+        <h1>Votación</h1>
+        <p class="subtitulo">Verifica que la edad para votar</p>
+
+        <form class="formulario">
+            <!--Grupo 1: Datos de conversion-->
+            <div class="grupo-formulario">
+                <label for="Edad"> Edad </label>
+            <input type="text" id="Edad" placeholder="Ingrese tu edad" required>
+            </div>
+
+            <!--Grupo de farenheit-->
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="vota">Veredicto</label>
+                    <input type="text" id="vota" placeholder="Resultado de la votación" readonly>
+                    </div>
+                    </div>
+                    
+           <button type="submit" class="boton-enviar">
+        Verificar<span>-></span>
+    </button>
+        </form>
+    </div>
+    
+</body>
+</html>

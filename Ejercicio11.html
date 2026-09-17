@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion de distancias</title>
+    <link rel="stylesheet" href="css/exercicio11.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="js/ese11.js"></script>
+</head>
+<body>
+     <div class="Contenedor">
+        <h1>Calculadora</h1>
+        <p class="subtitulo">Realiza la conversión de Km a Millas</p>
+
+        <form class="formulario">
+            <!--Grupo 1: Datos de conversion-->
+            <div class="grupo-formulario">
+                <label for="km">Distancia en Kilometros</label>
+            <input type="text" id="km" placeholder="Ingrese los kilometros" required>
+            </div>
+
+            <!--Grupo de farenheit-->
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="millat">Distancia en Millas</label>
+                    <input type="text" id="millat" placeholder="" readonly>
+                    </div>
+                    </div>
+                    
+           <button type="submit" class="boton-enviar">
+        Convertir<span>-></span>
+    </button>
+        </form>
+    </div>
+</body>
+</html>
