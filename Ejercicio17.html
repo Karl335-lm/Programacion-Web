@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17 - Gestión de Tareas</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/exxercicio17.css"> 
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Gestor de Tareas</h1>
+        <p>Almacenamiento en Closures y JSON</p>
+
+        <form class="formulario" onsubmit="event.preventDefault(); gestor.agregarTarea();">
+            <div class="grupo-formulario">
+                <label for="tarea">Nueva tarea:<br></label>
+                <input type="text" id="tarea" placeholder="Añadir tarea">
+            </div>
+            <button type="button" onclick="gestor.agregarTarea()" class="boton-agregar">Agregar Tarea</button>
+            <ul id="listaTareas" class="lista-tareas"></ul>
+        </form>
+    </div>
+    <script src="js/esse17.js"></script>
+</body>
+</html>
