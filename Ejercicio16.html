@@ -6,36 +6,40 @@
     <title>numeros</title>
     <link rel="stylesheet" href="css/exercicio16.css">
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
- <script src="js/ese15.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="js/esse16.js"></script>
 </head>
 <body>
     <div class="Contenedor">
-        <h1>Promedio</h1>
-
+        <h1>Calculadora Básica</h1>
+        <p>Funciones Flecha</p>
         <form class="formulario">
             <!--Grupo 1: Datos de conversion-->
             <div class="grupo-formulario">
-                <label for="nombre"> Nombre: </label>
-            <input type="text" id="nombre" placeholder="Ejemplo: karla" required>
+                <label for="num1"> Numero 1: </label>
+            <input type="text" id="num1" placeholder="Ingrese el primer numero" required>
             </div>
 
             <!--Grupo de farenheit-->
             <div class="grupo-doble">
                 <div class="grupo-formulario">
-                    <label for="calf">Calificación:</label>
-                    <input type="text" id="calf" placeholder="Ingresa tu calificación: Ejemplo: 85" required>
+                    <label for="num2">Numero 2:</label>
+                    <input type="text" id="num2" placeholder="Ingresa el segundo número" required>
                     </div>
                     </div>
               <div class="botones">     
-           <button type="submit" class="boton-enviar">
-        Agregar estudiante<span>-></span>
+           <button type="button" id="Sumar" class="boton-enviar">
+        Sumar<span>-></span>
         </button>
 
-        <button type="submit" class="boton-enviar">
-        Calcular<span>-></span>
+        <button type="button" id="Restar" class="boton-enviar">
+        Restar<span>-></span>
     </button>
-    <button type="submit" class="boton-enviar">
-        Limpiar arreglo<span>-></span>
+    <button type="button" id="Multiplicar" class="boton-enviar">
+        Multiplicar<span>-></span>
+    </button>
+    <button type="button" id="Dividir" class="boton-enviar">
+        Dividir<span>-></span>
     </button>
     </div>
     <div class="grupo-formulario">
